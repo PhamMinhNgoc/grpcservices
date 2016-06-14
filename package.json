@@ -1,0 +1,19 @@
+{
+  "name": "dynamic_codegen",
+  "version": "1.0.0",
+  "description": "This is the dynamic code generation variant of the Node examples. Code in these examples is generated at runtime using Protobuf.js.",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "google-protobuf": "^3.0.0-alpha.5",
+    "grpc": "^0.14.0",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "gcloud preview app deploy app.yaml"
+  },
+  "author": "mrkhoai",
+  "license": "ISC"
+}
